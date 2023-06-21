@@ -27,6 +27,6 @@ setup(
         "matplotlib",
         "scikit-learn",
         "nibabel",
-        "pystrum @ git+ssh://git@github.com/ClandininLab/pystrum.git@3282980923e2563d7b9947002a39e08163553709",
+        "pystrum @ git+ssh://git@github.com/ClandininLab/pystrum.git@f8f5c3598eb3af029e0e718279f955085bab3f25",
     ],
 )
