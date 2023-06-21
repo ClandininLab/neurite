@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+from setuptools import find_packages, setup
 
 # run setup
 setup(
@@ -10,7 +10,7 @@ setup(
     description="Neural Networks Toolbox for Medical Imaging",
     url="https://github.com/adalca/neurite",
     keywords=["imaging", "cnn"],
-    packages=["neurite"],
+    packages=find_packages(),
     python_requires=">=3.6",
     classifiers=[
         "Intended Audience :: Science/Research",
